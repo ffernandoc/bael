@@ -1066,9 +1066,12 @@ function renderStageBody(text) {
   const fragment = document.createDocumentFragment();
 
   blocks.forEach((block) => {
-    const element = /^Chapter\b/i.test(block)
-      ? document.createElement("h4")
-      : document.createElement("p");
+    const isSectionHeading = /^(Act|Chapter)\b/i.test(block);
+    const element = isSectionHeading ? document.createElement("h4") : document.createElement("p");
+
+    if (isSectionHeading && /^Act\b/i.test(block)) {
+      element.classList.add("stage-body__act");
+    }
 
     element.textContent = block.replace(/\n+/g, " ");
     fragment.appendChild(element);

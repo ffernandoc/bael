@@ -79,25 +79,6 @@ a {
   overflow-x: clip;
 }
 
-.site-footer {
-  position: relative;
-  z-index: 1;
-  width: min(100% - 2rem, 56rem);
-  margin: 0 auto;
-  padding: 1.35rem 1.5rem 2.4rem;
-  border-top: 1px solid var(--line);
-  color: var(--text-soft);
-  font-family: var(--font-ui);
-  font-size: 0.88rem;
-  letter-spacing: 0.03em;
-  line-height: 1.7;
-  text-align: center;
-}
-
-.site-footer p {
-  margin: 0;
-}
-
 .hero {
   min-height: 100svh;
   position: relative;
@@ -596,7 +577,8 @@ h1 {
 
 .stage-panel__header,
 .stage-scroll > h3,
-.stage-scroll > .stage-body {
+.stage-scroll > .stage-body,
+.story-credit {
   width: min(56rem, 100%);
   margin-inline: auto;
 }
@@ -724,6 +706,20 @@ h3 {
   hyphens: none;
   text-shadow: 0 0.08rem 0.6rem rgba(0, 0, 0, 0.22);
   text-wrap: pretty;
+}
+
+.story-credit {
+  margin-top: 1.8rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(255, 241, 214, 0.12);
+  font-family: var(--font-ui);
+  font-size: clamp(0.76rem, 0.84vw, 0.9rem);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 239, 209, 0.72);
+  text-align: center;
+  text-shadow: 0 0.28rem 1rem rgba(0, 0, 0, 0.26);
+  text-wrap: balance;
 }
 
 .stage-fx.is-active.stage-fx--winter::before {

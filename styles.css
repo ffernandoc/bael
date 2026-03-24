@@ -479,6 +479,7 @@ h1 {
 }
 
 .stage-panel {
+  --panel-inner-gap: clamp(0.72rem, 1.35vw, 1rem);
   position: relative;
   z-index: 2;
   width: min(76rem, 100%);
@@ -488,7 +489,7 @@ h1 {
   align-self: center;
   overflow: hidden;
   margin: 0 auto;
-  padding: 0;
+  padding: var(--panel-inner-gap);
   border: 1px solid rgba(255, 241, 214, 0.16);
   border-radius: 2rem;
   background:
@@ -504,16 +505,35 @@ h1 {
     filter 280ms ease;
 }
 
+.stage-frame {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: calc(2rem - var(--panel-inner-gap));
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
+}
+
 .stage-scroll {
   position: relative;
   z-index: 1;
   flex: 1 1 auto;
   min-height: 0;
   width: 100%;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
-  padding: clamp(1.75rem, 3vw, 2.8rem) clamp(1.12rem, 2.5vw, 2.05rem) clamp(1.75rem, 3vw, 2.8rem) clamp(1.3rem, 2.8vw, 2.55rem);
+  scrollbar-gutter: stable;
+  padding:
+    clamp(1.75rem, 3vw, 2.8rem)
+    calc(clamp(1.05rem, 2.35vw, 1.95rem) + 0.32rem)
+    clamp(1.75rem, 3vw, 2.8rem)
+    clamp(1.3rem, 2.8vw, 2.55rem);
 }
 
 .stage-panel::before,
@@ -532,9 +552,7 @@ h1 {
 }
 
 .stage-panel::after {
-  inset: 1rem;
-  border-radius: calc(2rem - 1rem);
-  border: 1px solid rgba(255, 255, 255, 0.04);
+  display: none;
 }
 
 .story-stage--panel-hidden .stage-panel {
@@ -554,12 +572,12 @@ h1 {
 }
 
 .stage-scroll::-webkit-scrollbar {
-  width: 0.42rem;
+  width: 0.5rem;
 }
 
 .stage-scroll::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.035);
-  border: 0.06rem solid transparent;
+  border: 0.08rem solid transparent;
   background-clip: padding-box;
   border-radius: 999px;
 }
@@ -567,7 +585,7 @@ h1 {
 .stage-scroll::-webkit-scrollbar-thumb {
   background:
     linear-gradient(180deg, rgba(244, 248, 255, 0.4), rgba(181, 205, 235, 0.18));
-  border: 0.04rem solid transparent;
+  border: 0.08rem solid transparent;
   background-clip: content-box;
   border-radius: 999px;
   min-height: 3.5rem;
@@ -1190,18 +1208,18 @@ h3 {
   }
 
   .stage-panel {
+    --panel-inner-gap: 0.72rem;
     width: 100%;
     max-height: calc(100svh - 5.25rem);
     margin-top: 0.2rem;
   }
 
-  .stage-panel::after {
-    inset: 0.72rem;
+  .stage-frame {
     border-radius: calc(2rem - 0.72rem);
   }
 
   .stage-scroll {
-    padding: 1.25rem 0.95rem 1.35rem 1rem;
+    padding: 1.25rem 1rem 1.35rem 1rem;
   }
 
   .stage-panel__header,

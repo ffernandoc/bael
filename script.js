@@ -219,15 +219,25 @@ Evelyn smirked. “You’ll be okay, Quark. At least you won’t be spicy.”
 
 Quark, already done with the conversation, simply said, “On that note, goodnight.”
 
-But night had one more thing in it yet.
+But sleep did not take them all in the same way.
 
-When the others settled, Bael did not so much cast a spell as lay his voice gently into the dark and follow the thread of it where Ored’s sleeping mind had already gone. He found not a dream he had built, but a door into one already living.
+Evelyn did not stay in the room long. The walls were too close, the air too still, the whole place too full of other people’s prayers. She climbed instead to the roof of the church, where the cold had not yet sharpened and the sky opened wide above her. There she lay on her back beneath a spread of stars so clear that even in her weariness she took time to look at them properly. Some she knew. Some she did not. The whole vault of night above the village seemed deeper than it ought to have been, as if the east had its own heavens.
+
+Below, in the chapel, Ored had made his bed once more at the feet of Alandra’s statue. He moved the candles a little before settling, careful even in fatigue, then lowered himself to the floor with the slow familiarity of a man who had done so many times before. He wrapped his old body near the pedestal as though the stone woman’s presence might keep some older loneliness at bay.
+
+Bael lay awake longer than he meant to.
+
+The room was quiet. Quark’s breathing had already gone heavy with sleep. Somewhere beyond the wall, the village had sunk into that soft stillness which comes only after a full day: the last settling of beams, the faint shift of cooling air, some distant sound too small to name. Yet Ored’s story had not left him. Nor had the look of the old priest beside the statue. Nor the feeling that the road east had already begun pulling threads tight around all of them.
+
+At last Bael closed his eyes.
+
+What followed was not so much a spell as a yielding. He let his thoughts sink, and as they did he felt again that strange thread he had brushed once before in sleep: the line between his own dreaming mind and another’s. He followed it gently into the dark, and found not a dream he had built, but a door into one already living.
 
 He fell through blackness to a floor sleek and dark beneath him. Ahead there was one single light. And standing in it: Ored, not old now but young, perhaps in his early twenties, in simple clothing, with an insignia on his back like a rising dragon.
 
 Bael watched.
 
-The light shifted. The young man became a man in his thirties, seated in a room full of holy works—paintings of dragons, depictions of Gen in dragonborn form, the whole place warm with the look of long devotion. Ored was writing in Draconic, his hand steady over a paper Bael could not truly read.
+The light shifted. The young man became a man in his thirties, seated in a room full of holy works—paintings of dragons, depictions of Gen in dragonborn form, the whole place warm with the look of long devotion. Ored was writing in Draconic, his hand steady over a page Bael could not truly read.
 
 But the words did not matter as much as the feeling behind them.
 
@@ -239,21 +249,21 @@ And some private sorrow made sharper by discipline rather than dulled.
 
 Bael understood then that in passing through the dream he was not only seeing. He was feeling.
 
-He felt also the empty shape of children he never had, though many had been taught by him.
+He felt also the empty shape of children Ored never had, though many had been taught by him.
 
 Then Ored looked back—not seeing Bael directly, but almost looking through him—and left the room.
 
-The dream changed again. A forest this time. Ored older, perhaps fifty, moving among trees. A dragon there. Prayer there. Ash swirling. The memory of confrontation, then loss, then closure too early to be peace.
+The dream changed again.
+
+A forest this time. Ored older now, perhaps fifty, moving among trees. A dragon there. Prayer there. Ash swirling. The memory of confrontation, then loss, then closure too early to be peace.
 
 The dream moved one last time into the shape of Ored’s study and his notebook and his lifelong labor: learning the dragons, recording them, trying through them to understand not only the children of Gen, but Gen himself.
 
-When the dream ended, Bael woke with the weight of it still inside him.
+Then the dream loosened.
 
-Outside, on the roof, Evelyn slept beneath a sky so clear that even in her exhaustion she had taken time to stare at it first. She had climbed there because the room did not feel right, not in the way open air did. The stars above the church had seemed almost infinite, and some of them new.
+The study dimmed. The forest thinned. The feeling of Ored’s life receded like warmth from a hand withdrawn.
 
-Below, in the chapel, Ored slept at the feet of Alandra.
-
-And over the village, night deepened.
+Somewhere beyond it, morning waited.
 
 Chapter II — The White Mound
 

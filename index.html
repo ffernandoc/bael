@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Havel | The Five Great Dragons</title>
+    <meta
+      name="description"
+      content="A full-screen fantasy site where five dragon panels control a story slide beneath them."
+    />
+    <meta name="theme-color" content="#090d13" />
+    <link rel="stylesheet" href="./styles.css?v=20260324-4" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="dragon-grid" aria-label="Dragon chapters">
+          <button
+            class="dragon-link winter is-active"
+            data-dragon="winter"
+            type="button"
+            aria-pressed="true"
+          >
+            <span class="dragon-meta">
+              <span class="dragon-label">Kafur</span>
+              <span class="dragon-subtitle">Dragon of Winter</span>
+              <span class="dragon-chapter">Chapter 1</span>
+            </span>
+          </button>
+
+          <button
+            class="dragon-link spring"
+            data-dragon="spring"
+            type="button"
+            aria-pressed="false"
+          >
+            <span class="dragon-meta">
+              <span class="dragon-label">Shakaya</span>
+              <span class="dragon-subtitle">Dragon of Spring</span>
+              <span class="dragon-chapter">Chapter 2</span>
+            </span>
+          </button>
+
+          <button
+            class="dragon-link summer"
+            data-dragon="summer"
+            type="button"
+            aria-pressed="false"
+          >
+            <span class="dragon-meta">
+              <span class="dragon-label">Hakol</span>
+              <span class="dragon-subtitle">Dragon of Summer</span>
+              <span class="dragon-chapter">Chapter 3</span>
+            </span>
+          </button>
+
+          <button
+            class="dragon-link fall"
+            data-dragon="fall"
+            type="button"
+            aria-pressed="false"
+          >
+            <span class="dragon-meta">
+              <span class="dragon-label">Teshuka</span>
+              <span class="dragon-subtitle">Dragon of Fall</span>
+              <span class="dragon-chapter">Chapter 4</span>
+            </span>
+          </button>
+
+          <button
+            class="dragon-link death"
+            data-dragon="death"
+            type="button"
+            aria-pressed="false"
+          >
+            <span class="dragon-meta">
+              <span class="dragon-label">Mavit</span>
+              <span class="dragon-subtitle">Dragon of Death</span>
+              <span class="dragon-chapter">Final</span>
+            </span>
+          </button>
+        </div>
+
+        <div class="hero-copy">
+          <h1 id="hero-title">A Tale of Dragons</h1>
+          <p class="hero-byline">Written by Tyler Danes</p>
+        </div>
+      </section>
+
+      <section class="story-hub" id="world" aria-labelledby="stage-title">
+        <div
+          class="story-stage"
+          id="story-stage"
+          data-dragon="winter"
+          aria-live="polite"
+          aria-labelledby="stage-title"
+        >
+          <div class="stage-backdrop" aria-hidden="true"></div>
+
+          <div class="stage-fx" id="stage-fx" aria-hidden="true"></div>
+
+          <article class="stage-panel">
+            <div class="stage-scroll" id="stage-scroll">
+              <div class="stage-panel__header">
+                <div class="stage-panel__meta">
+                  <p class="stage-world" id="stage-world"></p>
+                  <p class="stage-kicker" id="stage-kicker"></p>
+                </div>
+                <p class="stage-panel__status">Featured Chapter</p>
+              </div>
+              <h3 id="stage-title">The Festival of Kafur.</h3>
+              <div class="stage-body" id="stage-body">
+                <p>
+                  Choose a dragon above to reveal its chapter.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js?v=20260324-4"></script>
+  </body>
+</html>

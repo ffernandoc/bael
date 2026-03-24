@@ -113,7 +113,7 @@ And Ored, once given the slightest opening, told them his world.
 
 He spoke of Gen, the dragonborn god of that region, who had once taken dragon-shape and raised the land itself from barrenness to life. Of trees and meadows and beasts and hills. Of how he made dragonborn from himself so that the place would not remain empty after being made beautiful. And of how, before his strength failed, he poured himself again into four pure dragons who would carry the seasons over the land.
 
-“Shakaya, the copper dragon of spring,” Ored said. “Hakol, the gold dragon of summer. Teshuka, the brass dragon of fall. And finally Kafur, the white dragon of winter.”
+“Shikiah, the copper dragon of spring,” Ored said. “Hakol, the gold dragon of summer. Teshuka, the brass dragon of fall. And finally Kafur, the white dragon of winter.”
 
 His gaze lifted slightly as he spoke the names, as if each one passed not only through his tongue but through habit and prayer and old affection. “These dragons bring the seasons. They fly over the region and the world changes with them. Spring renews. Summer is for labor.”
 
@@ -889,8 +889,8 @@ And so they slept one more night in the church, cold though the world had turned
   },
   spring: {
     world: "",
-    kicker: "Shakaya",
-    title: "Shakaya, the Dragon of Spring",
+    kicker: "Shikiah",
+    title: "Shikiah, the Dragon of Spring",
     bodyText: ``,
   },
   summer: {
@@ -907,8 +907,8 @@ And so they slept one more night in the church, cold though the world had turned
   },
   death: {
     world: "",
-    kicker: "Mavit",
-    title: "Mavit, the Dragon of Death",
+    kicker: "Mavet",
+    title: "Mavet, the Dragon of Death",
     bodyText: ``,
   },
 };

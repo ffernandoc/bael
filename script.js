@@ -3,7 +3,7 @@ const DRAGON_CONTENT = {
     world: "Winter Chronicle",
     kicker: "Kafur, Dragon of Winter",
     title: "The Festival of Kafur",
-    bodyText: `Chapter I — Smoke to the East
+    bodyText: `Act I — Smoke to the East
 
 For many days they had been walking east, and the east had given them very little in return.
 
@@ -265,13 +265,13 @@ The study dimmed. The forest thinned. The feeling of Ored’s life receded like 
 
 Somewhere beyond it, morning waited.
 
-Chapter II — The White Mound
+Act II — The White Mound
 
-Bael woke first, or at least woke enough to decide that what he had learned in the night ought not stay his alone.
+Bael was the first awake, or near enough to it, and he knew at once that what he had learned in the night ought not stay his alone.
 
 “Good morning, guys,” he said into the gray quiet of the room.
 
-Quark answered with the thick reluctance of a man not yet convinced that consciousness was worth the effort. Evelyn did not reply at all, which was normal enough where she was concerned that Bael took no immediate alarm from it.
+Quark answered with the thick reluctance of a man not yet convinced that consciousness was worth the effort. Evelyn did not reply at once, which was normal enough where she was concerned that Bael took no immediate alarm from it.
 
 He rubbed one hand over his face and sat up. “So. I have something to share with you.”
 
@@ -561,7 +561,7 @@ That was when all three of them knew with certainty that Kafur’s death had not
 
 It had been murder.
 
-Chapter III — The Dragon of Death
+Act III — The Dragon of Death
 
 Evelyn moved first.
 
@@ -791,7 +791,7 @@ Ored set his hand upon it with reverence. “With death comes rebirth.”
 
 He looked at them then, and there was no uncertainty in him. “Gen was a god, and the dragons are part of him. Each one is their own being, but gods still. Gods can never truly die. Just as death will never leave us, Kafur has come again.”
 
-He opened the notebook and spoke from what had been written there over years. “I know him. I know his love. I have met his children, and I know who he is. He is cold as snow, as hot and furious as the summer, as strong and gorgeous as spring, and as calming as fall.”
+He opened the notebook and spoke from what had been written there over years. “I know him. I know his love. I have met his children, and I know who he is. He is cold as snow, as hot and furious as summer, as strong and gorgeous as spring, and as calming as fall.”
 
 Then he touched the egg.
 
